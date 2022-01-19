@@ -26,6 +26,6 @@ public String delete(@PatVariable(value="no") @PatVariable("num")int num) {
 		System.out.println(name);
 		System.out.println(age);
 
-		return "/WEB-INF/views/writeForm.jsp";
+		return "writeForm";
 	}
 
