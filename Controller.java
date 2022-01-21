@@ -1,4 +1,13 @@
 
+
+//처음확인
+@RequestMapping(value = "hello", method = { RequestMethod.GET, RequestMethod.POST })
+	public String hello() {
+		System.out.println("hello");
+
+		return "";
+		
+		
 //파라미터로 주는 방식     
 @RequestMapping(value = "/view", method = { RequestMethod.GET, RequestMethod.POST })
 		public String delete(@RequestParam(value="no") int no) {
